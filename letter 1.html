@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collaboration Request — U.S. Embassy (Green Card 2025)</title>
+  <style>
+    :root{--bg:#f4f6f8;--card:#ffffff;--accent:#0b5cff;--muted:#556;--maxw:850px}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg);color:#111}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:32px}
+    .card{width:100%;max-width:var(--maxw);background:linear-gradient(180deg,rgba(255,255,255,0.98),var(--card));box-shadow:0 8px 30px rgba(12,20,40,0.08);border-radius:12px;overflow:hidden}
+    header{display:flex;gap:18px;align-items:center;padding:24px 28px;border-bottom:1px solid #eef2f6}
+   
+    .hdr-text{line-height:1}
+    .hdr-text h1{margin:0;font-size:18px;letter-spacing:0.2px}
+    .hdr-text small{display:block;color:var(--muted);font-size:13px;margin-top:6px}
+    .body{padding:28px;color:#0c1720}
+    .meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:14px}
+    .meta .m{font-size:14px;color:var(--muted)}
+    .title{font-weight:700;margin:8px 0 14px;font-size:18px}
+    .content p{margin:0 0 12px;line-height:1.55}
+    .signature{margin-top:18px}
+    .signature strong{display:block}
+    footer{display:flex;gap:12px;padding:18px;border-top:1px solid #eef2f6;align-items:center;justify-content:space-between}
+    .actions{display:flex;gap:8px}
+    button{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;font-weight:600;cursor:pointer}
+    .btn-ghost{background:transparent;color:var(--accent);border:1px solid #dbe6ff}
+    .small{font-size:13px;color:var(--muted)}
+    .notice{background:#fffbeb;border-left:4px solid #f59e0b;padding:10px 12px;border-radius:8px;margin:12px 0;font-size:14px}
+    pre{white-space:pre-wrap;background:#0f1724;color:#e6eef8;padding:12px;border-radius:8px;overflow:auto}
+    @media (max-width:520px){header{padding:18px} .body{padding:18px} .logo{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="card" role="article" aria-labelledby="inv-title">
+      <header>
+        <div>
+<img src="C:\Users\theok\Documents\Web\New folder\Embassy logo.png" alt="Embassy logo" style="height: 90px;width: 90px;">
+        </div>
+        <div class="hdr-text">
+          <h1>THE UNITED STATES EMBASSY — NAIROBI</h1>
+          <small>P.O. Box 606, Village Market 00621, Nairobi, Kenya.</small>
+        </div>
+      </header>
+
+      <div class="body">
+        <div class="meta">
+          <div class="m">Date: <strong>October 31, 2025</strong></div>
+          <div class="m">To: <strong id="recipient">Kennedy Mukhongo.</strong></div>
+          <div class="m">Studio: <strong id="studio">Kenhong Creatives</strong></div>
+        </div>
+
+        <h2 class="title" id="inv-title">Invitation for partnership — American Center;Green Card 2025 Application Center</h2>
+
+        <section class="content">
+          <p>Dear <strong id="salutation">Mr. Kennedy Mukhongo</strong>,</p>
+
+          <p>The Embassy of the United States of America in Nairobi extends its compliments and wishes to convey our deep appreciation for your continued contribution to Kenya’s creative and professional photography sector.</p>
+
+          <p>In preparation for the upcoming <strong>2025 U.S. Diversity Visa (Green Card) application period</strong>, the Embassy is seeking to collaborate with a select number of reputable photography studios across the country to assist applicants in meeting the official photo and documentation standards required by the U.S. Department of State.</p>
+
+          <p>Your studio, <strong id="studio-name">Kenhong Creatives</strong>, has been identified as a potential partner based on its strong reputation for professionalism, high-quality service delivery, and community engagement. Through this partnership, you would serve as an <em>officially recognized photography support point</em>, assisting Kenyan citizens in the submission of compliant passport photographs and providing general guidance on photo specifications during the application window.</p>
+
+          <div class="notice">
+            <strong>What the Embassy will provide:</strong>
+            <ul>
+              <li>Official U.S. photo compliance guidelines and training materials</li>
+              <li>A Certificate of Recognition acknowledging your partnership</li>
+              <li>Inclusion on the Embassy’s public list of recommended photography service providers</li>
+            </ul>
+          </div>
+
+          <p>We kindly request confirmation of your willingness to collaborate <strong>within two (2) hours of receiving this letter</strong>, to allow for orientation and coordination ahead of the official launch of the application period. Failure to respond within the stated period will result in the withdrawal of this offer and reassignment of the opportunity.</p>
+
+          <p><strong>Contact for Coordination:</strong><br>
+          Embassy Program Liaison Office – Public Affairs Section<br>
+          Email: <a href="mailto:USAembassykenya@gmail.com">USAembassykenya@gmail.com</a><br>
+        
+
+          <p>We value the essential role of the private sector in strengthening public service delivery and community outreach. Your partnership in this initiative would directly contribute to a smoother, more transparent, and efficient process for thousands of Kenyan applicants nationwide.</p>
+
+          <p class="signature">Sincerely,<br>
+          <strong>Embassy Protocol &amp; Public Affairs Office</strong><br>
+          U.S. Embassy, Nairobi</p>
+        </section>
+
+        <footer>
+          <div>
+            <div class="small">Prepared for print or email distribution.</div>
+          </div>
+
+          <div class="actions">
+            <button id="printBtn" title="Print or save as PDF">Print / Save PDF</button>
+            <button id="copyBtn" class="btn-ghost" title="Copy letter text to clipboard">Copy Text</button>
+            <button id="downloadBtn" class="btn-ghost" title="Download as .docx (simple)">Download .docx</button>
+          </div>
+        </footer>
+      </div>
+    </article>
+  </div>
+
+  <script>
+    // Print
+    document.getElementById('printBtn').addEventListener('click', ()=>window.print());
+
+    // Copy letter content to clipboard (plain text)
+    document.getElementById('copyBtn').addEventListener('click', async ()=>{
+      const lines = [];
+      const hdr = 'THE UNITED STATES EMBASSY — NAIROBI\nP.O. Box 606, Village Market 00621, Nairobi, Kenya\nTel: +254 20 3636000\n';
+      lines.push(hdr);
+      lines.push('Date: ' + (new Date()).toLocaleDateString());
+      lines.push('\nTo: ' + document.getElementById('recipient').textContent);
+      lines.push('\nSubject: Request for Collaboration in Supporting the 2025 U.S. Diversity Visa (Green Card) Program\n');
+      const paragraphs = Array.from(document.querySelectorAll('.content p')).map(p=>p.textContent.trim());
+      lines.push(...paragraphs);
+      lines.push('\nContact: dvpartnerships-nairobi@state.gov | +254 20 363 6200');
+      const text = lines.join('\n\n');
+      try{
+        await navigator.clipboard.writeText(text);
+        alert('Letter copied to clipboard. Paste into email or document editor and replace bracketed fields.');
+      }catch(e){
+        alert('Unable to copy automatically — please select the text and copy manually.');
+      }
+    });
+
+    // Download a very simple .docx-like file (actually .doc with HTML content) for convenience
+    document.getElementById('downloadBtn').addEventListener('click', ()=>{
+      const header = '<html><head><meta charset="utf-8"><title>Letter</title></head><body>';
+      const footer = '</body></html>';
+      const content = document.querySelector('.card').innerHTML;
+      const blob = new Blob([header + content + footer], {type: 'application/msword'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'US_Embassy_GreenCard_Collab_Letter.doc'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
